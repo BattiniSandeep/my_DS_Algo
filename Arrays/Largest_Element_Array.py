@@ -1,6 +1,7 @@
 # This program is to find the Largest element in an array of integers
 
-# This function returns the index of the largest number in the array
+# This function returns the index of the largest number in the array.
+# Time complexity is Theta(N), where is N is the number of elements in array
 def find_Largest(arr):
     result_index = 0
     for i in range(1, len(arr)):
